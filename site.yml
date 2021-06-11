@@ -3,7 +3,7 @@ site:
   start_page: hydroker-docs::index.adoc 
 content:
   sources: 
-  - url: https://gitlab.com/ElSupreme_/hydroker-docs.git
+  - url: https://gitlab.com/Nathan-Guillaume/hydroker-docs.git
   branches: master
 ui: 
   bundle:
