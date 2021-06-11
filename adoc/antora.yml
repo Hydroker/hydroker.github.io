@@ -1,6 +1,0 @@
-name: hydroker
-title: Hydroker
-version: 0.0.1
-start_page: ROOT:inline-text-formatting.adoc
-nav:
-- modules/ROOT/nav.adoc
