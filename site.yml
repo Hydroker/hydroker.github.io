@@ -1,9 +1,9 @@
 site:
   title: Hydroker Docs
-  start_page: component-a::index.adoc 
+  start_page: hydroker::index.adoc 
 content:
   sources: 
-  - url: https://gitlab.com/antora/demo/demo-component-a.git
+  - url: https://github.com/Hydroker/hydroker.github.io/adoc.git
     branches: master
 ui: 
   bundle:
