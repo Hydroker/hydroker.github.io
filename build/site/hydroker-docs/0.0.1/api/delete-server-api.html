@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Ordered Lists :: Hydroker Docs</title>
+    <title>Delete a server :: Hydroker Docs</title>
     <meta name="generator" content="Antora 2.3.4">
     <link rel="stylesheet" href="../../../_/css/site.css">
     <script>var uiRootPath = '../../../_'</script>
@@ -61,12 +61,24 @@
     <div class="panels">
 <div class="nav-panel-menu is-active" data-panel="menu">
   <nav class="nav-menu">
-    <h3 class="title"><a href="../inline-text-formatting.html">Hydroker</a></h3>
+    <h3 class="title"><a href="../index.html">Hydroker</a></h3>
 <ul class="nav-list">
   <li class="nav-item" data-depth="0">
 <ul class="nav-list">
   <li class="nav-item" data-depth="1">
     <a class="nav-link" href="../index.html">Home</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">API</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="create-server-api.html">Create a server</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="2">
+    <a class="nav-link" href="delete-server-api.html">Delete a server</a>
+  </li>
+</ul>
   </li>
 </ul>
   </li>
@@ -80,10 +92,10 @@
   </div>
   <ul class="components">
     <li class="component is-current">
-      <a class="title" href="../inline-text-formatting.html">Hydroker</a>
+      <a class="title" href="../index.html">Hydroker</a>
       <ul class="versions">
         <li class="version is-current is-latest">
-          <a href="../inline-text-formatting.html">0.0.1</a>
+          <a href="../index.html">0.0.1</a>
         </li>
       </ul>
     </li>
@@ -98,133 +110,20 @@
   <a href="../index.html" class="home-link"></a>
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
-    <li><a href="../inline-text-formatting.html">Hydroker</a></li>
-    <li><a href="ordered-list.html">Ordered Lists</a></li>
+    <li><a href="../index.html">Hydroker</a></li>
+    <li>API</li>
+    <li><a href="delete-server-api.html">Delete a server</a></li>
   </ul>
 </nav>
-  <div class="edit-this-page"><a href="https://gitlab.com/Nathan-Guillaume/hydroker-docs/edit/master/modules/ROOT/pages/lists/ordered-list.adoc">Edit this Page</a></div>
+  <div class="edit-this-page"><a href="https://gitlab.com/Nathan-Guillaume/hydroker-docs/edit/master/modules/ROOT/pages/api/delete-server-api.adoc">Edit this Page</a></div>
   </div>
   <div class="content">
 <aside class="toc sidebar" data-title="Contents" data-levels="2">
   <div class="toc-menu"></div>
 </aside>
 <article class="doc">
-<h1 class="page">Ordered Lists</h1>
-<div class="sect1">
-<h2 id="basic-ordered-list"><a class="anchor" href="#basic-ordered-list"></a>Basic Ordered List</h2>
-<div class="sectionbody">
-<div class="listingblock">
-<div class="title">Basic Ordered List</div>
-<div class="content">
-<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">.Optional Title of List
-. Step 1
-. Step 2
-. Step 3</code></pre>
-</div>
-</div>
-<div class="olist arabic">
-<div class="title">Optional Title of List</div>
-<ol class="arabic">
-<li>
-<p>Step 1</p>
-</li>
-<li>
-<p>Step 2</p>
-</li>
-<li>
-<p>Step 3</p>
-</li>
-</ol>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="nested-ordered-list"><a class="anchor" href="#nested-ordered-list"></a>Nested Ordered List</h2>
-<div class="sectionbody">
-<div class="listingblock">
-<div class="title">Ordered list with nested levels</div>
-<div class="content">
-<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">. Step 1
-. Step 2
-.. Step 2a
-.. Step 2b
-. Step 3</code></pre>
-</div>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>Step 1</p>
-</li>
-<li>
-<p>Step 2</p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>Step 2a</p>
-</li>
-<li>
-<p>Step 2b</p>
-</li>
-</ol>
-</div>
-</li>
-<li>
-<p>Step 3</p>
-</li>
-</ol>
-</div>
-<div class="listingblock">
-<div class="title">Maximum nested level</div>
-<div class="content">
-<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">. level 1
-.. level 2
-... level 3
-.... level 4
-..... level 5
-. level 1</code></pre>
-</div>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>level 1</p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>level 2</p>
-<div class="olist lowerroman">
-<ol class="lowerroman" type="i">
-<li>
-<p>level 3</p>
-<div class="olist upperalpha">
-<ol class="upperalpha" type="A">
-<li>
-<p>level 4</p>
-<div class="olist upperroman">
-<ol class="upperroman" type="I">
-<li>
-<p>level 5</p>
-</li>
-</ol>
-</div>
-</li>
-</ol>
-</div>
-</li>
-</ol>
-</div>
-</li>
-</ol>
-</div>
-</li>
-<li>
-<p>level 1</p>
-</li>
-</ol>
-</div>
-</div>
-</div>
+<h1 class="page">Delete a server</h1>
+
 </article>
   </div>
 </main>
