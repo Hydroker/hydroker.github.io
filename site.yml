@@ -1,10 +1,10 @@
 site:
   title: Hydroker Docs
-  start_page: hydroker-docs::index.adoc 
+  start_page: hydroker-docs::index.adoc
 content:
   sources: 
-  - url: https://gitlab.com/Nathan-Guillaume/hydroker-docs.git
-  branches: master
+  - url: https://gitlab.com/ElSupreme_/hydroker-docs.git
+    branches: master
 ui: 
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
